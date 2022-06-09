@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Kursach</string>
+    <string name="about_text">
+    У лукоморья дуб зелёный;\n
+    Златая цепь на дубе том:\n
+    И днём и ночью <b>кот учёный</b>\n
+    Всё ходит по цепи кругом;\n
+    Идёт <b>направо</b> - песнь заводит,\n
+    <b>Налево</b> - сказку говорит.</string>
+    <string name="enter_how_much_cookies_you_want">Enter How Much Cookies You Want</string>
+    <string name="connect_to_laptop">Connect to Laptop</string>
+    <string name="add_to_cart">Add to cart</string>
+    <string name="cart">Shopping cart</string>
+    <string name="Megumin">Фигурка Мегумин</string>
+    <string name="Mona">Фигурка Моны</string>
+    <string name="Nezuko">Фигурка Незуко</string>
+    <string name="princess">Фигурка принцессы</string>
+    <string name="zero_two">Фигурка Zero Two</string>
+    <string name="describe">
+     <b>Категория:</b> Аниме фигурки\n
+     <b>Артикул:</b> Figures-5703\n
+     <b>Вес:</b> 400 гр.\n
+     <b>Источник:</b> Kono Subarashii Sekai ni Shukufuku wo!\n
+     <b>Размер:</b> 17,5 см.\n
+     <b>Серия:</b> POP UP PARADE\n
+     <b>Производитель:</b> Max Factory\n
+     <b>Материал:</b> PVC и ABS\n
+     <b>Дата поступления:</b> Апрель 2021
+    </string>
+</resources>
