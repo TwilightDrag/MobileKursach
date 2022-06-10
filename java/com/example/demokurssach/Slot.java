@@ -14,4 +14,20 @@ public class Slot implements Serializable {
         coast = c;
         id = i;
     }
+
+    public int getImg() {
+        return img;
+    }
+
+    public float getCoast() {
+        return coast;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public CharSequence getTxtView() {
+        return txtView;
+    }
 }

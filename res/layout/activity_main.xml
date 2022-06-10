@@ -407,6 +407,15 @@
         android:orientation="horizontal"
         tools:ignore="MissingConstraints">
 
+        <TextView
+            android:id="@+id/sum"
+            android:layout_width="295dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/zero_two"
+            android:textSize="10dp"/>
+
         <Button
             android:id="@+id/cart"
             android:layout_width="wrap_content"
