@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="412dp"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints,UselessParent"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="16dp">
+
+        <RelativeLayout
+            android:id="@+id/image_btn2"
+            android:layout_width="382dp"
+            android:layout_height="145dp"
+            android:layout_margin="10dp">
+
+            <ImageButton
+                android:id="@+id/img"
+                android:layout_width="89dp"
+                android:layout_height="89dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="15dp"
+                android:contentDescription="@string/enter_how_much_cookies_you_want"
+                android:scaleType="fitCenter"
+                android:src="@drawable/zero2" />
+
+            <TextView
+                android:id="@+id/empty"
+                android:layout_width="167dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="125dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="15dp"
+                android:text="List is Empty" />
+
+            <Button
+                android:id="@+id/delete"
+                android:layout_width="39dp"
+                android:layout_height="36dp"
+                android:layout_marginStart="320dp"
+                android:layout_marginTop="15dp"
+                android:insetLeft="1dp"
+                android:insetTop="1dp"
+                android:onClick="onClick"
+                android:text="X"
+                android:textSize="16dp"
+                app:iconPadding="2dp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="125dp"
+                android:layout_marginTop="50dp"
+                android:text="TextView"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:text="TextView"
+                android:textSize="16sp" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
