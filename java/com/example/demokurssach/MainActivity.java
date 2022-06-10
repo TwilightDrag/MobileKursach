@@ -116,17 +116,11 @@ public class MainActivity extends AppCompatActivity implements OnClickListener {
                 startActivityForResult(intent8.putExtra("list", (Serializable) slot), SECOND_ACTIVITY_REQUEST_CODE);
                 break;
             case R.id.add1:
-                slot.add(new Slot(R.drawable.megumin, getText(R.string.Megumin), 500, 1));
-                summa += 500;
-                break;
-            case R.id.add2:
-                slot.add(new Slot(R.drawable.megumin, getText(R.string.Megumin), 500, 2));
-                summa += 500;
-                break;
             case R.id.add3:
                 slot.add(new Slot(R.drawable.megumin, getText(R.string.Megumin), 500, 3));
                 summa += 500;
                 break;
+            case R.id.add2:
             case R.id.add4:
                 slot.add(new Slot(R.drawable.mona, getText(R.string.Mona), 475, 4));
                 summa += 475;
@@ -140,9 +134,6 @@ public class MainActivity extends AppCompatActivity implements OnClickListener {
                 summa += 600;
                 break;
             case R.id.add7:
-                slot.add(new Slot(R.drawable.zero2, getText(R.string.zero_two), 350,7));
-                summa += 350;
-                break;
             case R.id.add8:
                 slot.add(new Slot(R.drawable.zero2, getText(R.string.zero_two), 350,7));
                 summa += 350;
